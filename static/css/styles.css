@@ -1,0 +1,227 @@
+#bootstrap-overrides {
+    font-family: 'Lato', serif;
+}
+.navbar-custom {
+    background-color: #673AB7;
+    background-image: none;
+    background-repeat: no-repeat;
+    border: 0px;
+    border-radius: 0px;
+    width: 100%;
+    margin-bottom: 0px;
+}
+.navbar-custom .navbar-brand {
+    color:#fff;
+  	border-radius:0;
+}
+.navbar-custom .navbar-nav > li > a {
+  	color:#fff;
+  	padding-left:25px;
+  	padding-right:25px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: transparent;
+}
+      
+.navbar-custom .navbar-nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    color: #EDE7F6;
+    background-color: transparent;
+}
+body {
+    background-color: #673AB7;
+}
+.content_container{
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 500px;
+    color: #fff;
+
+}
+.second_content_container{
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 500px;
+    color: #fff;
+
+}
+.content {
+    padding-top: 10px;
+}
+.middle_content{
+    font-size: 100px;
+    color: #000;
+}
+img {
+    padding-top: 30px;
+}
+
+.card {
+    padding-top: 0px;
+    border-radius: 7px;
+    margin: 1rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+/* Type writer effect */
+.typewriter h1 {
+    color: #FFEE58;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation:
+    typing 5.5s steps(40, end) infinite,
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+}
+
+/* end */
+
+
+.footer_container{
+    color: #EDE7F6;
+}
+.flashes_content{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.custom-row input{
+	width: 100%;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 0;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: white;
+    padding-left: 20px;
+}
+.custom-row .loginbtn {
+	width: 430.33px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.11);
+    background-image: linear-gradient(-180deg, #FFFFFF 0%, #EEEEEE 100%);
+    color: #3E7AC6;
+    border-radius: 3px;
+    height: 45px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.custom-row button {
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+}
+.custom-row {
+	background-color: rgba(255, 255, 255, 0.05);
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0 -15px 0 -15px;
+    text-align: center;
+    height: 500px;
+    padding-top: 100px;
+}
+.custom-row .app-body{
+    background-color: rgba(255, 255, 255, 0.05);
+    height: 225px;
+}
+.custom-row .signup-app-body{
+    background-color: rgba(255, 255, 255, 0.05);
+    height: 330px;
+}
+.app_header {
+	height: 30px;
+	text-align: center;
+    color: #fff;
+}
+.dash-custom-row {
+    background-color: rgba(255, 255, 255, 0.05);
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0 -15px 0 -15px;
+    text-align: center;
+    height: 700px;
+    padding-top: 0px;
+
+}
+.pagination-page-info {
+    padding: .6em;
+    padding-left: 0;
+    width: 40em;
+    margin: .5em;
+    margin-left: 0;
+    font-size: 12px;
+}
+.pagination-page-info b {
+    color: black;
+    background: #6aa6ed;
+    padding-left: 2px;
+    padding: .1em .25em;
+    font-size: 150%;
+}
+.table-custom {
+    border: 0px;
+    background: #D1C4E9;
+}
+.table-custom .thead-custom {
+
+    background: #B39DDB;
+    /* font-family: monospace; */
+    color: #311B92;
+    /* padding: 0px; */
+}
+.cat_icons {
+    width: 400px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    position: absolute;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.cat_icons:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.card-content{
+    padding-top: 80px;
+    padding-left: 50px;
+}
+.card-content a:link {
+    color: #fff;
+    text-decoration: none;
+}
+.card-content img{
+    padding-top: 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.cat_icons h3 {
+    padding-top: 0px;
+    position: relative;
+    top: 0px;
+}
+.third_content_container{
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 500px;
+    color: #fff;
+
+}

@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+{% block title %} Index {% endblock %}
+{% block content %}
+<div class="row content_container">
+    <div class="col-md-4 text-center card-content">
+        <a href="{{ url_for('general') }}">
+            <div class="cat_icons">
+                <h3>General</h3>
+            </div>
+                            <img class="img-responsive" src="/static/img/bg.png" alt="">
+
+        </a>
+
+    </div>
+    <div class="col-md-4 text-center card-content">
+        <a href="{{ url_for('sports')}}">
+            <div class="cat_icons">
+                <h3>Sports</h3>
+            </div>
+                            <img class="img-responsive" src="/static/img/sports.JPG" alt="">
+
+        </a>
+
+    </div>
+    <div class="col-md-4 text-center card-content">
+        <a href="{{ url_for('business') }}">
+           <div class="cat_icons">
+               <h3>Business</h3>
+           </div>
+                           <img class="img-responsive" src="/static/img/Business-news.jpg" alt="">
+
+        </a>
+
+    </div>
+</div>
+<div class="row second_content_container">
+    <div class="col-md-4 text-center card-content">
+        <a href="{{ url_for('technology') }}">
+            <div class="cat_icons">
+                <h3>Technology</h3>
+            </div>
+                            <img class="img-responsive" src="/static/img/Technology-news.png" alt="">
+
+        </a>
+
+    </div>
+    <div class="col-md-4 text-center card-content">
+        <a href="{{ url_for('gaming') }}">
+           <div class="cat_icons">
+               <h3>Gaming</h3>
+           </div>
+            <img class="img-responsive" src="/static/img/unnamed.png" alt="">
+        </a>
+
+    </div>
+    <div class="col-md-4 text-center card-content">
+        <a href="{{ url_for('science_nature') }}">
+            <div class="cat_icons">
+                <h3>Science and nature</h3>
+            </div>
+        <img class="img-responsive" src="/static/img/science.png" alt="">
+
+        </a>
+
+    </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,158 @@
+{% extends "base.html" %}
+{% block title %} Science and nature news {% endblock %}
+{% block content %}
+<div class="row content_container">
+    <div class="col-md-3  text-center card-content">
+        <a href="{{ news_dict['articles'][0]['url'] }}">
+            <div class="cat_icons">
+                {% if news_dict['articles'][0]['urlToImage'] %}
+                    <img class="img-responsive" src="{{ news_dict['articles'][0]['urlToImage'] }}" alt="">
+                {% else %}
+                    <h4>No Image available</h4>
+                {% endif %}
+                <div class="cat-title cat-body"><h3>{{ news_dict['articles'][0]['title'] }}</h3></div>
+                <div class="cat-desc cat-body">
+
+                    {{ news_dict['articles'][0]['description'] }}
+                </div>
+            </div>
+        </a>
+    </div>
+
+    <div class="col-md-3 col-md-offset-1 text-center card-content">
+
+
+        <a href="{{ news_dict['articles'][1]['url'] }}">
+            <div class="cat_icons">
+                {% if news_dict['articles'][1]['urlToImage'] %}
+                    <img class="img-responsive" src="{{ news_dict['articles'][1]['urlToImage'] }}" alt="">
+                {% else %}
+                    <h4>No Image available</h4>
+                {% endif %}
+                <div class="cat-title cat-body"><h3>{{ news_dict['articles'][1]['title'] }}</h3></div>
+                <div class="cat-desc cat-body">
+
+                    {{ news_dict['articles'][1]['description'] }}
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="col-md-3 col-md-offset-1 text-center card-content">
+        <a href="{{ news_dict['articles'][2]['url'] }}">
+            <div class="cat_icons">
+                {% if news_dict['articles'][2]['urlToImage'] %}
+                    <img class="img-responsive" src="{{ news_dict['articles'][2]['urlToImage'] }}" alt="">
+                {% else %}
+                    <h4>No Image available</h4>
+                {% endif %}
+                <div class="cat-title cat-body"><h3>{{ news_dict['articles'][2]['title'] }}</h3></div>
+                <div class="cat-desc cat-body">
+
+                    {{ news_dict['articles'][2]['description'] }}
+                </div>
+            </div>
+        </a>
+    </div>
+</div>
+<div class="row second_content_container">
+    <div class="col-md-4 text-center card-content">
+        <a href="{{ news_dict['articles'][3]['url'] }}">
+            <div class="cat_icons">
+                {% if news_dict['articles'][3]['urlToImage'] %}
+                    <img class="img-responsive" src="{{ news_dict['articles'][3]['urlToImage'] }}" alt="">
+                {% else %}
+                    <h4>No Image available</h4>
+                {% endif %}
+                <div class="cat-title cat-body"><h3>{{ news_dict['articles'][3]['title'] }}</h3></div>
+                <div class="cat-desc cat-body">
+
+                    {{ news_dict['articles'][3]['description'] }}
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="col-md-4 text-center card-content">
+        <a href="{{ news_dict['articles'][4]['url'] }}">
+            <div class="cat_icons">
+                {% if news_dict['articles'][4]['urlToImage'] %}
+                    <img class="img-responsive" src="{{ news_dict['articles'][4]['urlToImage'] }}" alt="">
+                {% else %}
+                    <h4>No Image available</h4>
+                {% endif %}
+                <div class="cat-title cat-body"><h3>{{ news_dict['articles'][4]['title'] }}</h3></div>
+                <div class="cat-desc cat-body">
+
+                    {{ news_dict['articles'][4]['description'] }}
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="col-md-4 text-center card-content">
+        <a href="{{ news_dict['articles'][5]['url'] }}">
+            <div class="cat_icons">
+                {% if news_dict['articles'][5]['urlToImage'] %}
+                    <img class="img-responsive" src="{{ news_dict['articles'][5]['urlToImage'] }}" alt="">
+                {% else %}
+                    <h4>No Image available</h4>
+                {% endif %}
+                <div class="cat-title cat-body"><h3>{{ news_dict['articles'][5]['title'] }}</h3></div>
+                <div class="cat-desc cat-body">
+
+                    {{ news_dict['articles'][5]['description'] }}
+                </div>
+            </div>
+        </a>
+    </div>
+</div>
+    <div class="row third_content_container">
+    <div class="col-md-4 text-center card-content">
+        <a href="{{ news_dict['articles'][6]['url'] }}">
+            <div class="cat_icons">
+                {% if news_dict['articles'][6]['urlToImage'] %}
+                    <img class="img-responsive" src="{{ news_dict['articles'][6]['urlToImage'] }}" alt="">
+                {% else %}
+                    <h4>No Image available</h4>
+                {% endif %}
+                <div class="cat-title cat-body"><h3>{{ news_dict['articles'][6]['title'] }}</h3></div>
+                <div class="cat-desc cat-body">
+
+                    {{ news_dict['articles'][6]['description'] }}
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="col-md-4 text-center card-content">
+        <a href="{{ news_dict['articles'][7]['url'] }}">
+            <div class="cat_icons">
+                {% if news_dict['articles'][7]['urlToImage'] %}
+                    <img class="img-responsive" src="{{ news_dict['articles'][7]['urlToImage'] }}" alt="">
+                {% else %}
+                    <h4>No Image available</h4>
+                {% endif %}
+                <div class="cat-title cat-body"><h3>{{ news_dict['articles'][7]['title'] }}</h3></div>
+                <div class="cat-desc cat-body">
+
+                    {{ news_dict['articles'][7]['description'] }}
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="col-md-4 text-center card-content">
+        <a href="{{ news_dict['articles'][9]['url'] }}">
+            <div class="cat_icons">
+                {% if news_dict['articles'][9]['urlToImage'] %}
+                    <img class="img-responsive" src="{{ news_dict['articles'][9]['urlToImage'] }}" alt="">
+                {% else %}
+                    <h4>No Image available</h4>
+                {% endif %}
+                <div class="cat-title cat-body"><h3>{{ news_dict['articles'][9]['title'] }}</h3></div>
+                <div class="cat-desc cat-body">
+
+                    {{ news_dict['articles'][9]['description'] }}
+                </div>
+            </div>
+        </a>
+    </div>
+</div>
+
+{% endblock %}

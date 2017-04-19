@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block title %}Login{% endblock %}
+{% block content %}
+<div class="row">
+    <div class="col-md-4 col-md-offset-4 text-center">
+        {% if error %}
+                <div class="alert alert-warning" role="alert">{{ error }}</div>
+        {% endif %}
+    </div>
+</div>
+<div class="row custom-row">
+
+	<div class="col-md-4 col-md-offset-4 text-center app-body">
+		<h4 class="app_header">Login</h4>
+
+		<form method='post' action=''>
+		  <div class="form-group">
+		    <input type="text" class="form-control" id="username" name="username" placeholder="Username">
+		  </div>
+		  <div class="form-group">
+		    <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+		  </div>
+		  <button type="submit" class="btn btn-default loginbtn">Login</button>
+		</form>
+	</div>
+</div>
+{% endblock %}

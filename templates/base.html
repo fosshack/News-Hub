@@ -1,0 +1,89 @@
+<!-- 
+
+Author: George J Padayatti
+
+-->
+<!-- Basic template skeleton -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% block head %}
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/styles.css') }}">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400">
+    <link href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css" media="all" rel="stylesheet" type="text/css" />
+    <title>{% block title %}{% endblock %} - CCB</title>
+    {% endblock %}
+</head>
+<body id="bootstrap-overrides">
+<!-- Display the default navigation -->
+<div id="nav">
+{% block nav %}
+	<nav class="navbar navbar-custom navbar-static-top">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+            <a class="navbar-brand" href="{{ url_for('main') }}"><b>News</b>Hub</a>
+	    </div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      
+	  
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a href="{{ url_for('login') }}">Login</a></li>
+	        <li><a href="{{ url_for('register') }}">Signup</a></li>
+	      </ul>
+
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+{% endblock %}
+</div>
+
+
+
+<!-- Display the main content block -->
+<div class="container">
+   <div class="flashes_content">
+        {% with messages=get_flashed_messages() %}
+            {% if messages %}
+                <!-- Display the flash messages -->
+
+                <div class="flashes">
+                {% for message in messages%}
+                    <div class="alert alert-warning alert-dismissible" role="alert">
+                      <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      {{ message }}
+                    </div>
+                {% endfor %}
+                </div>
+            {% endif %}
+        {% endwith %}
+    </div>
+</div>
+
+<!-- Adding the jquery js file -->
+<script type="text/javascript" src="{{ url_for('static',filename='js/jquery-3.2.0.js') }}"></script>
+<!-- Adding the bootstrap js file -->
+<script type="text/javascript" src="{{ url_for('static',filename='js/bootstrap.min.js') }}"></script>
+{% block content %}
+
+{% endblock %}
+
+<div class="row footer_container">
+    <div class="col-md-4 col-md-offset-4 text-center">
+        <h4>&copy; 2017</h4> Made with &hearts; from <b>kerala.</b>
+    </div>
+</div>
+
+
+
+</body>
+</html>
