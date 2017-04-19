@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<category>
+	<pattern>LATEST _ NEWS _ GENERAL</pattern>
+	<template>GENERAL</template>
+</category>
+
+<category>
+	<pattern>LATEST NEWS GENERAL</pattern>
+	<template>GENERAL</template>
+</category>
+
+<category>
+	<pattern>TOP _ TENDENCY _ NEWS _ GENERAL</pattern>
+	<template>GENERAL</template>
+</category>
+
+<category>
+	<pattern>TOP TENDENCY NEWS GENERAL</pattern>
+	<template>GENERAL</template>
+</category>
+
+<category>
+	<pattern>NEWS _ GENERAL</pattern>
+	<template>GENERAL</template>
+</category>
+
+<category>
+	<pattern>NEWS GENERAL</pattern>
+	<template>GENERAL</template>
+</category>
+
+<category>
+	<pattern>TOP _ TENDENCY _ NEWS _ BUSINESS</pattern>
+	<template>BUSINESS</template>
+</category>
+
+<category>
+	<pattern>TOP TENDENCY NEWS BUSINESS</pattern>
+	<template>BUSINESS</template>
+</category>
+
+<category>
+	<pattern>LATEST _ NEWS _ BUSINESS</pattern>
+	<template>BUSINESS</template>
+</category>
+
+<category>
+	<pattern>LATEST NEWS BUSINESS</pattern>
+	<template>BUSINESS</template>
+</category>
+
+<category>
+	<pattern>NEWS _ BUSINESS</pattern>
+	<template>BUSINESS</template>
+</category>
+
+<category>
+	<pattern>NEWS BUSINESS</pattern>
+	<template>BUSINESS</template>
+</category>
+
+<category>
+	<pattern>TOP _ TENDENCY _ NEWS _ GAMBLING</pattern>
+	<template>GAMING</template>
+</category>
+
+<category>
+	<pattern>TOP TENDENCY NEWS GAMBLING</pattern>
+	<template>GAMING</template>
+</category>
+
+<category>
+	<pattern>NEWS _ GAMBLING</pattern>
+	<template>GAMING</template>
+</category>
+
+<category>
+	<pattern>NEWS GAMBLING</pattern>
+	<template>GAMING</template>
+</category>
+
+<category>
+	<pattern>LATEST _ NEWS _ GAMBLING</pattern>
+	<template>GAMING</template>
+</category>
+
+<category>
+	<pattern>LATEST NEWS GAMBLING</pattern>
+	<template>GAMING</template>
+</category>
+
+<category>
+	<pattern>TOP _ TENDENCY _ NEWS _ SCIENCE</pattern>
+	<template>SCIENCE</template>
+</category>
+
+<category>
+	<pattern>TOP TENDENCY NEWS SCIENCE</pattern>
+	<template>SCIENCE</template>
+</category>
+
+<category>
+	<pattern>LATEST _ NEWS _ SCIENCE</pattern>
+	<template>SCIENCE</template>
+</category>
+
+<category>
+	<pattern>LATEST NEWS SCIENCE</pattern>
+	<template>SCIENCE</template>
+</category>
+
+<category>
+	<pattern>NEWS _ SCIENCE</pattern>
+	<template>SCIENCE</template>
+</category>
+
+<category>
+	<pattern>NEWS SCIENCE</pattern>
+	<template>SCIENCE</template>
+</category>
+
+<category>
+	<pattern>LATEST _ NEWS _ SPORT</pattern>
+	<template>SPORTS</template>
+</category>
+
+<category>
+	<pattern>LATEST NEWS SPORT</pattern>
+	<template>SPORTS</template>
+</category>
+
+<category>
+	<pattern>NEWS _ SPORT</pattern>
+	<template>SPORTS</template>
+</category>
+
+<category>
+	<pattern>NEWS SPORT</pattern>
+	<template>SPORTS</template>
+</category>
+
+<category>
+	<pattern>TOP _ TENDENCY _ NEWS _ SPORT</pattern>
+	<template>SPORTS</template>
+</category>
+
+<category>
+	<pattern>TOP TENDENCY NEWS SPORT</pattern>
+	<template>SPORTS</template>
+</category>
+
+<category>
+	<pattern>LATEST _ NEWS _ TECHNOLOGY</pattern>
+	<template>TECHNOLOGY</template>
+</category>
+
+<category>
+	<pattern>LATEST NEWS TECHNOLOGY</pattern>
+	<template>TECHNOLOGY</template>
+</category>
+
+<category>
+	<pattern>NEWS _ TECHNOLOGY</pattern>
+	<template>TECHNOLOGY</template>
+</category>
+
+<category>
+	<pattern>NEWS TECHNOLOGY</pattern>
+	<template>TECHNOLOGY</template>
+</category>
+
+<category>
+	<pattern>TOP _ TENDENCY _ NEWS _ TECHNOLOGY</pattern>
+	<template>TECHNOLOGY</template>
+</category>
+
+<category>
+	<pattern>TOP TENDENCY NEWS TECHNOLOGY</pattern>
+	<template>TECHNOLOGY</template>
+</category>
+
+</aiml>
